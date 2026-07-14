@@ -1,0 +1,6 @@
+export const YIELD_LOGO_PATH = 'M24 4.5 C20.5 8.5 12 16 10 24 C8 32 14 40 24 42 C34 40 40 32 38 24 C36 16 27.5 8.5 24 4.5Z'
+export const YIELD_Y_PATH_LEFT = 'M15.5 14 L23 24'
+export const YIELD_Y_PATH_RIGHT = 'M32.5 14 L25 24'
+export const YIELD_Y_PATH_STEM = 'M24 24 L24 37'
+export const YIELD_COLOR = '#0d9488'
+export const YIELD_COLOR_DARK = '#0f766e'

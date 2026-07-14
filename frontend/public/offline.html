@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yield - Offline</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f8f6f1;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      border: 1px solid #e5e5e5;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.03);
+      padding: 48px 32px;
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+    }
+    .icon { font-size: 48px; margin-bottom: 16px; }
+    h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 8px; color: #18181b; }
+    p { color: #71717a; font-size: 0.95rem; line-height: 1.6; margin-bottom: 24px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 24px;
+      background: #0d9488;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+      text-decoration: none;
+    }
+    .btn:hover { background: #0f766e; }
+    .btn-secondary {
+      background: transparent;
+      color: #0d9488;
+      border: 1.5px solid #0d9488;
+      margin-left: 12px;
+    }
+    .btn-secondary:hover { background: rgba(13,148,136,0.05); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">📡</div>
+    <h1>You're offline</h1>
+    <p>Yield needs an internet connection to generate recipes. Check your connection and try again.</p>
+    <div>
+      <button class="btn" onclick="window.location.reload()">Retry</button>
+      <a href="/" class="btn btn-secondary">Go Home</a>
+    </div>
+  </div>
+</body>
+</html>

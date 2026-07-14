@@ -1,0 +1,11 @@
+# Yield - Premium Kitchen Utility
+# robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow API routes
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://yield-app.com/sitemap.xml
